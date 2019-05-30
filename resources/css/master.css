@@ -264,9 +264,8 @@ header .mobile {
 .feature h3 {
   font-size: 1rem;
   line-height: 1.2;
-  font-weight: 300;
+  font-weight:lighter;
   color: #4a4a4a;
-
 }
 
 @media only screen and (max-width: 890px) {
@@ -310,6 +309,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  opacity: 1;
 }
 
 #filters-section .content h3 {
@@ -317,11 +317,13 @@ header .mobile {
   line-height: 1.4;
   font-weight: 300;
   color: white;
+  opacity: 0.5;
 }
 
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
 }
 
 @media only screen and (max-width: 760px) {
@@ -358,6 +360,9 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  padding: 5rem;
+  font-size: 1.875rem;
+  font-family: Palatino-Italic;
 }
 
 #quotes-section content {
@@ -382,9 +387,11 @@ header .mobile {
     padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
-    font-size: 1.5rem;
+  #quotes-section .quote {
+    font-size: 1.875rem;
     line-height: 1.4;
+
+
   }
 
   #quotes-section quote-citation {
