@@ -54,6 +54,9 @@ header .content {
 
 header .logo {
   flex: 1;
+  font-size: 1.6rem;
+  font-weight: bold;
+  opacity: 0.6
 }
 
 header nav ul {
@@ -80,6 +83,21 @@ header .icon {
 
 header .mobile {
   display: none;
+}
+
+header .tablet {
+  display:none;
+}
+
+@media only screen and (max-width: 1024px) {
+   header .tablet {
+     display: block;
+     padding-left: 1.875rem;
+   }
+   .button {
+     padding: 0.1875rem .5rem;
+     background-color: #9dc20b;
+   }
 }
 
 @media only screen and (max-width: 760px) {
@@ -175,6 +193,19 @@ header .mobile {
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  #sign-up-cta {
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    margin: auto;
+  }
+  .email {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 760px) {
