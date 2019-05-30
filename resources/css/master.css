@@ -101,6 +101,11 @@ header .tablet {
 }
 
 @media only screen and (max-width: 760px) {
+
+  header {
+      height: 3rem;
+  }
+
   header .desktop {
     display: none;
   }
@@ -108,6 +113,7 @@ header .tablet {
   header .mobile {
     display: block;
     width: 100%;
+
   }
 
   header .content {
@@ -318,9 +324,22 @@ header .tablet {
     padding: 0;
   }
 
+  .center {
+    margin-bottom: 1.875rem;
+    margin-top:1rem;
+  }
+
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+  }
+  .feature h2 {
+    font-size: 1.25rem;
+    line-height: 1.3;
+  }
+  .feature h3 {
+    font-size: 0.875rem;
+    line-height: 1.4;
   }
 }
 
@@ -419,8 +438,10 @@ header .tablet {
   }
 
   #quotes-section .quote {
-    font-size: 1.875rem;
+    font-size: 1.5rem;
     line-height: 1.4;
+    display: block;
+    margin-bottom: 1rem;
 
 
   }
